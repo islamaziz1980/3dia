@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/global/plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet">
+    <!-- Global styles END -->
+    <!-- Page level plugin styles START -->
+    <link href="assets/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel-rtl.css" rel="stylesheet">
+    <link href="assets/global/plugins/slider-layer-slider/css/layerslider.css" rel="stylesheet">
+    <!-- Page level plugin styles END -->
+    <!-- Theme styles START -->
+    <link href="assets/global/css/components-rtl.css" rel="stylesheet">
+    <link href="assets/frontend/layout/css/style.css" rel="stylesheet">
+    <link href="assets/frontend/pages/css/style-shop.css" rel="stylesheet" type="text/css">
+    <link href="assets/frontend/pages/css/style-layer-slider.css" rel="stylesheet">
+    <link href="assets/frontend/layout/css/style-responsive.css" rel="stylesheet">
+    <link href="assets/frontend/layout/css/themes/red.css" rel="stylesheet">
+    <link href="assets/frontend/layout/css/custom.css" rel="stylesheet">
+    <!-- Theme styles END -->
+
+    <link href="CustomCSS/CustumSiteStyle_AR.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css.css" rel="stylesheet" />
+    <title>الرحمة العالمية</title>
+</head>
+<body class="ecommerce">
+    <div>
+
+      <div class="clearfix"></div>
+      <div class="gift-form">
+        <div class="container">
+          <div class="row all-fee">
+            <div class="col-md-6 fee-imgo">
+            <img src="assets/gift-img/gift.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+            <div class="prj-header">
+              <form class="">
+              <div class="pro-action-fee form-inline">
+                  <div class="form-group gift-fee-bg"></div>
+                  <div class="form-group gift-fee-botoz">
+                  <button type="button" class="btn btn-all-prj" value="10" onclick="ChangeTxtVal('10');">10</button>
+                  <button type="button" class="btn btn-all-prj" value="20" onclick="ChangeTxtVal('20');">20</button>
+                  <button type="button" class="btn btn-all-prj" value="50" onclick="ChangeTxtVal('50');">50</button>
+                    <input id="txt_donate" type="text" class="form-control fee-other" placeholder="مبلغ آخر    د.ك">
+                  </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  <span>*</span>
+                  اسم المُهدي :
+                </label>
+                <input type="text" class="form-control" placeholder="اكتب اسمك كما سيظهر فى الرسالة المرسلة">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  <span>*</span>
+                اسم المُهدى له :
+                </label>
+                <input type="text" class="form-control"  placeholder="اكتب الاسم كما سيظهر فى شهادة الوقفية">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  <span>*</span>
+                موبايل المهدى إلية:
+                </label>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="ليصلة رسالة بها رابط شهادة الوقفية">
+                  <div class="input-group-addon">00965</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  <span>*</span>
+                البريد الإلكتروني للمُهدى له :
+                </label>
+                <input type="mail" class="form-control"placeholder="اكتب البريد الإلكترونى  ليصلة رسالة بها رابط شهادة الوقفية">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  <span>*</span>
+                اسم المناسبة :
+                </label>
+                <input type="text" class="form-control"  placeholder="اكتب اسم المناسبة">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  <span>*</span>
+              نص الرسالة :
+                </label>
+              <textarea class="form-control" rows="4"></textarea>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class=" row text-center gift-tabs">
+          <!-- herer start ---------->
+
+            <ul class="nav nav-tabs payz-tabz" role="tablist">
+              <li  class="active" ><a data-toggle="tab" href="#doer_of_good">فاعل خير</a></li>
+              <li><a data-toggle="tab" href="#create_account"> متبرع سابق </a></li>
+              <li><a data-toggle="tab" href="#sign_in">متبرع جديد </a></li>
+            </ul>
+            <div class="tab-content">
+              <!--beggin doer_of_good -->
+              <div id="doer_of_good" class="tab-pane fade in active">
+                <div class="container-fluid">
+                <div class="doer_good">
+                  <h4 class="h4 text-mute">لا مانع لدي عند اختيار "فاعل خير" بعدم استقبال رسالة نصية بالتبرع أو بريد إلكتروني</h4>
+                  <form action="" class="form-inline">
+                    <div class="form-group">
+                      <label for="">
+                        رقم الموبايل (إختياري)
+                      </label>
+                      <div class="input-group">
+                        <input type="text" id="phone" class="form-control" placeholder="">
+                        <div class="input-group-addon rosha">00965</div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="payment_method">
+                  
+                    <div class="row">
+                      <div class="col-md-4 col-sm-4  col-xs-6">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/visa.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                      <div class="col-md-4 col-sm-4 col-xs-6">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/knet.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                      <div class="col-md-4 col-sm-4 col-xs-6 pay">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img  class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/pay.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <!--End doer_of_good -->
+              <div id="create_account" class="tab-pane fade in">
+                <div class="container-fluid">
+
+                <div class="social_login">
+                  <a class="btn btn-default face-log" href="#" role="button">
+                    <i class="fa fa-facebook-square fa-2x"></i>
+                  <span>عن طريق فيسبوك </span>
+                  </a>
+                  <a class="btn btn-default goog-log" href="#" role="button">
+                      <i class="fa fa-google fa-2x"></i>
+                      <span>عن طريق جوجل </span>
+                  </a>
+                </div>
+                <h4 class="or">او</h4>
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="Emal"><span class="text-danger"> * </span>البريد الإلكتروني </label>
+                        <input class="form-control" id="Emal" type="text" />
+                      </span>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="password"> <span class="text-danger"> * </span> كلمة المرور  </label>
+                        <input class="form-control" id="password" type="password" />
+                      </span>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="donor_name"> اسم المتبرع   </label>
+                        <input class="form-control" id="donor_name" type="text" />
+                      </span>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="gender"> <span class="text-danger"> * </span> النوع </label>
+                        <div class="rad-boz">
+                                <li class="radio-inline li-rad">
+                                  <input type="radio" name="op1" id="male" value="option1"> ذكر
+                                </li>
+                                <li class="radio-inline li-rad">
+                                  <input type="radio" name="op1" id="female" value="option2"> أنثي
+                                </li>
+                              </div>
+                      </span>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="has-float-label">
+                        <label for="donor_name"><span class="text-danger"> * </span>  رقم الموبايل </label>
+                        <input id="create_account_phone"  class="form-control" type="tel" name="phone" />
+                      </span>
+                    </div>
+                    <div class="col-md-6">
+                      <span class="has-float-label bonm">
+                        <label for="country" > <span class="text-danger"> * </span> الدولة  </label>
+                        <select class="form-control" id="country">
+                          <option>اختر الدولة</option>
+                        </select>
+                      </span>
+                    </div>
+                  </div>
+                </form>
+                <div class="payment_method">
+                  <h5 class="h5 ">طريقة الدفع</h5>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4  col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/visa.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/knet.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6 pay">
+                      <label class="radio-inline">
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <img  class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/pay.svg" alt="" srcset="">
+                    </label>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+              <div id="sign_in" class="tab-pane fade in">
+                <div class="container-fluid">
+
+                  <div class="social_login">
+                    <a class="btn btn-default face-log" href="#" role="button">
+                      <i class="fa fa-facebook-square fa-2x"></i>
+                    <span>عن طريق فيسبوك </span>
+                    </a>
+                    <a class="btn btn-default goog-log" href="#" role="button">
+                        <i class="fa fa-google fa-2x"></i>
+                        <span>عن طريق جوجل </span>
+                    </a>
+                  </div>
+                  <h4 class="or">او</h4>
+                  <form action="">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <span class="has-float-label">
+                          <label for="Emal"><span class="text-danger"> * </span>البريد الإلكتروني </label>
+                          <input class="form-control" id="Emal" type="text" />
+                        </span>
+                      </div>
+                      <div class="col-md-6">
+                        <span class="has-float-label">
+                          <label for="password"> <span class="text-danger"> * </span> كلمة المرور  </label>
+                          <input class="form-control" id="password" type="password" />
+                        </span>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="payment_method">
+                    <h5 class="h5 ">طريقة الدفع</h5>
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/visa.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/knet.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6 pay">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img  class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/pay.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <img  class="img-responsive" src="assets/frontend/pages/img/ramadan/payment_method/rasidy.svg" alt="" srcset="">
+                      </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </div>
+
+    <script src="assets/global/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="assets/global/scripts/jquery-2.1.1.min.js"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/frontend/layout/scripts/back-to-top.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script src="assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <!-- pop up -->
+    <script src="assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel-rtl.js" type="text/javascript"></script>
+    <!-- slider for products -->
+    <script src='assets/global/plugins/zoom/jquery.zoom.min.js' type="text/javascript"></script>
+    <!-- product zoom -->
+    <script src="assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script>
+    <!-- Quantity -->
+    <!-- BEGIN LayerSlider -->
+    <script src="assets/global/plugins/slider-layer-slider/js/greensock.js" type="text/javascript"></script>
+    <!-- External libraries: GreenSock -->
+    <script src="assets/global/plugins/slider-layer-slider/js/layerslider.transitions.js" type="text/javascript"></script>
+    <!-- LayerSlider script files -->
+    <script src="assets/global/plugins/slider-layer-slider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+    <!-- LayerSlider script files -->
+    <script src="assets/frontend/pages/scripts/layerslider-init.js" type="text/javascript"></script>
+    <!-- END LayerSlider -->
+
+    <script src="assets/frontend/layout/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/frontend/layout/scripts/index.js" type="text/javascript"></script>
+    <script src="assets/frontend/layout/scripts/wow.min.js" type="text/javascript"></script>
+    <script>
+  $(document).ready(function() {
+     $('.progress .progress-bar').css("width",
+               function() {
+                   return $(this).attr("aria-valuenow") + "%";
+               }
+       )
+   });
+  </script>
+  <script>
+  function ChangeTxtVal(NewVal) {
+            $('#txt_donate').val(NewVal);
+
+        }
+  </script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+    const create_account_phone = document.querySelector("#create_account_phone");
+    const create_account_phoneInput = window.intlTelInput(create_account_phone, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
+</body>
+
+</html>
